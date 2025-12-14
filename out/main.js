@@ -1,5 +1,9 @@
-function add(x, y) {
-    return x + y;
+function doubleEquals(a, b) {
+    return a == b;
 }
-console.log(add(1, 2));
+function tripleEquals(a, b) {
+    return a === b;
+}
+console.log(doubleEquals(5, "5")); // true
+console.log(tripleEquals(5, "5")); // false
 //# sourceMappingURL=main.js.map
