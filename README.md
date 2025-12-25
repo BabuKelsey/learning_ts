@@ -9,6 +9,11 @@
  honestly idk what ts is used for yet
 
 # updates
+- 1.4.0
+    - working with more objects and reference (kinda neat but i think im just doing oop cus im used to it xD)
+    - the "crappyGame" is basically an eye level look at how guns in destiny 2 regenerates ammo
+        - still lacking a progress bar per kill 
+            - ie; 1 kill * by ammo regen -> if > 100, give ammo and reset running total. else add to running total
 - 1.3.2
     - objects and stuff (oop shid)
 
