@@ -6,6 +6,7 @@ export class Weapon {
         private name: string,
         private rarity: Readonly<weaponRarity>, // Accept Readonly<weaponRarity>
         private baseAmmoRegeneration: number
+        // add a ammotype later as another class-object "primary", "special", "heavy"
     ) {}
 
     // getters and setters
