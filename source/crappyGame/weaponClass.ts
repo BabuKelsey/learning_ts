@@ -9,6 +9,10 @@ export class Weapon {
         // add a ammotype later as another class-object "primary", "special", "heavy"
     ) {}
 
+    getID(): number {
+        return this.ID;
+    }
+
     // getters and setters
     getName(): string {
         return this.name;

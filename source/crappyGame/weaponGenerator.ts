@@ -28,6 +28,6 @@ weaponForm.addEventListener("submit", function (event: Event): void {
     const ammoRegen = ammoRegeneration(newWeapon);
 
     // Display the generated weapon
-    const output = `Weapon Name: ${newWeapon.getName()}\nRarity: ${weaponRarity}\nAmmo Regeneration: ${ammoRegen}`;
+    const output = `ID: ${newWeapon.getID()}\nWeapon Name: ${newWeapon.getName()}\nRarity: ${weaponRarity}\nAmmo Regeneration: ${ammoRegen}`;
     weaponOutput.textContent = output;
 });
