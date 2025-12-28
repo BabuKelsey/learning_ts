@@ -1,5 +1,5 @@
 import { Weapon } from "./weaponClass.js";
 
 export function ammoRegeneration(weapon: Weapon) : number {
-    return weapon.getBaseAmmoRegeneration() * weapon.getRarity().getAmmoRegenBonus();
+    return weapon.getBaseAmmoRegeneration() * weapon.getRarity().getAmmoRegenBonus();   // consider ammo type later
 }
