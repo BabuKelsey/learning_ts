@@ -9,6 +9,11 @@
  honestly idk what ts is used for yet
 
 # updates
+- 1.4.1
+    - index page with input
+    - major bugs
+        - drop down text is unreadable (color issue)
+        - no return data..
 - 1.4.0
     - working with more objects and referencing (kinda neat but i think im just doing oop cus im used to it xD)
     - the "crappyGame" is basically an eye level look at how guns in destiny 2 regenerates ammo
