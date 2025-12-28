@@ -20,4 +20,4 @@
 - 1.5.2
     - destiny 2 based ammo calculator thingy's input is working (yipee!!!)..
 
-See the full update history in [changelog](./changelog.md).
+See the full update history in [changelog](changelog.md).
