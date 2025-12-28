@@ -1,11 +1,5 @@
-import { Weapon } from "./weaponClass";
+import { Weapon } from "./weaponClass.js";
 
 export function ammoRegeneration(weapon: Weapon) : number {
-    let baseAmmoRegenRate = weapon.getBaseAmmoRegeneration();
-    let rarity = weapon.getRarity(); // This is already a weaponRarity instance
-
-    let rarityBonus = rarity.getAmmoRegenBonus(); // Directly use rarity
-    let totalAmmoRegen = baseAmmoRegenRate * rarityBonus;
-
-    return totalAmmoRegen;
+    return weapon.getBaseAmmoRegeneration() * weapon.getRarity().getAmmoRegenBonus();
 }

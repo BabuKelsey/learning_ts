@@ -1,4 +1,4 @@
-import { weaponRarity } from "./weaponRarity";
+import { weaponRarity } from "./weaponRarity.js";
 
 export class Weapon {
     constructor(

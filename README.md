@@ -9,9 +9,14 @@
  honestly idk what ts is used for yet
 
 # updates
+- 1.5.2
+    - destiny 2 based ammo calculator thingy's input is working (yipee!!!)..
+    - to do (add css for fun at some point)
+    - maybe use destiny 2's api for fun and see what i can make from there - but in a new repo
+    
 - 1.5.1
     - made a form return a user's input - which means i should be able to get 1.4 to work with a bit of tinkering (i hope)
-    
+
 - 1.5.0
     - simple user return working, now to somehow make it work with said thing below..
     - some directory shifting

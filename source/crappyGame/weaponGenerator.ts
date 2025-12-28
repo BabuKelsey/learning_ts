@@ -1,6 +1,6 @@
-import { Weapon } from "./weaponClass";
-import { rarities } from "./weaponRarity";
-import { ammoRegeneration } from "./ammoRegeneration";
+import { Weapon } from "./weaponClass.js";
+import { rarities } from "./weaponRarity.js";
+import { ammoRegeneration } from "./ammoRegeneration.js";
 
 // Define types for HTML elements
 const weaponForm = document.getElementById("weaponForm") as HTMLFormElement;
@@ -16,6 +16,7 @@ weaponForm.addEventListener("submit", function (event: Event): void {
     const weaponName: string = weaponNameInput.value;
     const weaponRarity: string = weaponRaritySelect.value;
     const baseAmmoRegen: number = parseInt(baseAmmoRegenInput.value || "0", 10);
+    console.log(`Generating weapon: ${weaponName}, Rarity: ${weaponRarity}, Base Ammo Regen: ${baseAmmoRegen}`);
 
     // Map rarity string to rarities enum
     const rarityEnum = rarities[weaponRarity as keyof typeof rarities];
@@ -27,6 +28,6 @@ weaponForm.addEventListener("submit", function (event: Event): void {
     const ammoRegen = ammoRegeneration(newWeapon);
 
     // Display the generated weapon
-    const output = `Weapon Name: ${newWeapon.getName}\nRarity: ${weaponRarity}\nAmmo Regeneration: ${ammoRegen}`;
+    const output = `Weapon Name: ${newWeapon.getName()}\nRarity: ${weaponRarity}\nAmmo Regeneration: ${ammoRegen}`;
     weaponOutput.textContent = output;
 });

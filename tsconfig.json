@@ -1,8 +1,9 @@
 {
     "compilerOptions": {
         "target": "es6",
-        //"module": "commonjs",
         "module": "es6",
+        "moduleResolution": "bundler",
+        "strict": true,
         "outDir": "out",
         "sourceMap": true,
         "lib": ["es2017", "dom"]
