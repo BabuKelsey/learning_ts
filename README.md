@@ -9,6 +9,9 @@
  honestly idk what ts is used for yet
 
 # updates
+- 1.5.1
+    - made a form return a user's input - which means i should be able to get 1.4 to work with a bit of tinkering (i hope)
+    
 - 1.5.0
     - simple user return working, now to somehow make it work with said thing below..
     - some directory shifting
